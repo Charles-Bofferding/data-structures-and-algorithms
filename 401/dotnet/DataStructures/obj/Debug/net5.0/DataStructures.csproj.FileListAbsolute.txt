@@ -1,0 +1,16 @@
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\bin\Debug\net5.0\DataStructures.exe
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\bin\Debug\net5.0\DataStructures.deps.json
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\bin\Debug\net5.0\DataStructures.runtimeconfig.json
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\bin\Debug\net5.0\DataStructures.runtimeconfig.dev.json
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\bin\Debug\net5.0\DataStructures.dll
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\bin\Debug\net5.0\ref\DataStructures.dll
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\bin\Debug\net5.0\DataStructures.pdb
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.csproj.AssemblyReference.cache
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.AssemblyInfoInputs.cache
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.AssemblyInfo.cs
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.csproj.CoreCompileInputs.cache
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.dll
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\obj\Debug\net5.0\ref\DataStructures.dll
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.pdb
+C:\Users\noctu\Source\Repos\Charles-Bofferding\data-structures-and-algorithms\401\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.genruntimeconfig.cache
