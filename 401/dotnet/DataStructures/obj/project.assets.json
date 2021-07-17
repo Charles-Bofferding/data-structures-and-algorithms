@@ -8,17 +8,21 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\noctu\\.nuget\\packages\\": {}
+    "C:\\Users\\noctu\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\noctu\\source\\repos\\Charles-Bofferding\\data-structures-and-algorithms\\401\\dotnet\\DataStructures\\DataStructures.csproj",
+      "projectUniqueName": "C:\\Users\\noctu\\Source\\Repos\\Charles-Bofferding\\data-structures-and-algorithms\\401\\dotnet\\DataStructures\\DataStructures.csproj",
       "projectName": "DataStructures",
-      "projectPath": "C:\\Users\\noctu\\source\\repos\\Charles-Bofferding\\data-structures-and-algorithms\\401\\dotnet\\DataStructures\\DataStructures.csproj",
+      "projectPath": "C:\\Users\\noctu\\Source\\Repos\\Charles-Bofferding\\data-structures-and-algorithms\\401\\dotnet\\DataStructures\\DataStructures.csproj",
       "packagesPath": "C:\\Users\\noctu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\noctu\\source\\repos\\Charles-Bofferding\\data-structures-and-algorithms\\401\\dotnet\\DataStructures\\obj\\",
+      "outputPath": "C:\\Users\\noctu\\Source\\Repos\\Charles-Bofferding\\data-structures-and-algorithms\\401\\dotnet\\DataStructures\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\noctu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

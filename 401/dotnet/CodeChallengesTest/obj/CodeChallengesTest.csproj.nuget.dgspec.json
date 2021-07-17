@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\noctu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\noctu\\source\\repos\\Charles-Bofferding\\data-structures-and-algorithms\\401\\dotnet\\CodeChallengesTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\noctu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -93,6 +96,9 @@
         "packagesPath": "C:\\Users\\noctu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\noctu\\source\\repos\\Charles-Bofferding\\data-structures-and-algorithms\\401\\dotnet\\CodeChallenges\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\noctu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -151,6 +157,9 @@
         "packagesPath": "C:\\Users\\noctu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\noctu\\source\\repos\\Charles-Bofferding\\data-structures-and-algorithms\\401\\dotnet\\DataStructures\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\noctu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

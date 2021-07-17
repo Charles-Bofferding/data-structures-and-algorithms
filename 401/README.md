@@ -7,6 +7,8 @@ Whiteboard a method that will take an array and reverse the order of the objects
 ## Approach & Efficiency
 We used the whiteboard from the heroku virtual classroom and then used an online C# editor to write and test the code.
 
+
+
 <!--Break Between Whiteboards -->
 
 # Insert to Middle of an Array
@@ -17,6 +19,8 @@ Whiteboard a method that will take an array and a value and insert that value in
 
 ## Approach & Efficiency
 The big o efficiency for this is O(1) I think. That is more due to the simplicity of the task (looping through an array once) than it is the elegance of the solution but I will take it.
+
+
 
 <!--Break Between Whiteboards -->
 
@@ -30,3 +34,38 @@ Given an array of sorted integers, and a value to find in that array, use the bi
 The approach taken was the standard binary search method, there was an included infographic that showed us how to do the algorithm. 
 The time requirement of this search is much less than just looping through the array. I beleive the time efficiency to be O(logn). It is not O(n) because as I understand it that would be the efficiency of just searching through the arrary.
 The space efficiency is very good. There are only 3 variables created and no new arrays, so an efficiency of O(n) because the array still takes up space.
+
+
+
+<!--Code Challenge 05 Linked Lists Implementation -->
+
+# Singly Linked List
+This challenge involved creating custom linked list and node classes. 
+The nodes only need a next node refference and an integer value. 
+The linked list needs the ability to insert new values into nodes on the list, check if a given value is included, and output a string representation of the string.
+
+## Challenge
+The further challenge was creating test to verrify all of the tests detailed below.
+- Can successfully instantiate an empty linked list
+- Can properly insert into the linked list
+- The head property will properly point to the first node in the linked list
+- Can properly insert multiple nodes into the linked list
+- Will return true when finding a value within the linked list that exists
+- Will return false when searching for a value in the linked list that does not exist
+- Can properly return a collection of all the values that exist in the linked list
+
+## Approach & Efficiency
+For all of the methods that involve acutally looping through the array I used a while loop.
+This only goes through the linked list once for each method so the time efficiency is O(1) because it happens a set number of times.
+For memory efficiency the memory space needed will be directly proportional to the size of inputs give to the linked list giving it an efficiency of O(n)
+
+## API
+Node methods
+Next: Define the Node that this Node's link ties to
+Value: Give the value to be stored in the node
+
+Linked List Methods
+Head: The initial node in the linked list
+Insert: Give a value in, and then have a Node created and added to the start of the linked list
+Include: Given a value look through the linked list and return true if that value is found in any of the nodes
+MakeString: Return a string that represnts the linked list
