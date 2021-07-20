@@ -102,6 +102,126 @@ namespace DataStructuresTest
 
         }
 
+        [Fact]
+        //Can successfully add a node to the end of the linked list
+        public void AppendLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+
+            test.Append(15);
+
+            //Make sure 15 is in there
+            Assert.True(test.Includes(15));
+
+        }
+
+        [Fact]
+        //Can successfully add multiple nodes to the end of a linked list
+        public void AppendMultipleLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+
+            test.Append(15);
+            test.Append(30);
+
+            //Make sure 15 and 30 are in there
+            Assert.True(test.Includes(15));
+            Assert.True(test.Includes(30));
+
+        }
+
+
+        [Fact]
+        //Can successfully insert a node before a node located in the middle of a linked list
+        public void InsertBeforeLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+
+            test.InsertBefore(8, 15);
+
+            //Make sure 15 and 30 are in there
+            Assert.Equal("40 -> 15 -> 8 -> 5 -> NULL", test.MakeString());
+
+        }
+
+
+        [Fact]
+        //Can successfully insert a node before the first node of a linked list
+        public void InsertBeforeFirstLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+
+            test.InsertBefore(40, 15);
+
+            //Make sure 15 and 30 are in there
+            Assert.Equal("15 -> 40 -> 8 -> 5 -> NULL", test.MakeString());
+
+        }
+
+
+        [Fact]
+        //Can successfully insert after a node in the middle of the linked list
+        public void InsertAfterLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+
+            test.InsertAfter(8, 15);
+
+            //Make sure 15 and 30 are in there
+            Assert.Equal("40 -> 8 -> 15 -> 5 -> NULL", test.MakeString());
+
+        }
+
+
+        [Fact]
+        //Can successfully insert a node after the last node of the linked list
+        public void InsertAfterLastLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+
+            test.InsertAfter(5, 15);
+
+            //Make sure 15 and 30 are in there
+            Assert.Equal("40 -> 8 -> 5 -> 15 -> NULL", test.MakeString());
+
+        }
+
 
     }
 }
