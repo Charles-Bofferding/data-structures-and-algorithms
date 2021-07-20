@@ -69,3 +69,26 @@ Head: The initial node in the linked list
 Insert: Give a value in, and then have a Node created and added to the start of the linked list
 Include: Given a value look through the linked list and return true if that value is found in any of the nodes
 MakeString: Return a string that represnts the linked list
+
+
+<!--Code Challenge 06 Linked Lists Insertion Methods -->
+
+# Append
+Given a value create a node and add it to the start of the linked list
+
+#Insert Before
+Given a target to search for and an input value, create a node with that input value 
+and put that node just before the first node that contains the search variable.
+
+#Insert Answer
+Given a target to search for and an input value, create a node with that input value 
+and put that node just after the first node that contains the search variable.
+
+## Whiteboard Process
+![whiteboard6](Code-Challenge-6.png)
+
+## Approach & Efficiency
+Time: All of these methods only loop through the linked list once. This means the time will scale linearly 
+with the size of the linkedlist that runs the method, giving it an efficiency of O(n).
+Memory: All of these methods only create and refference a set number of nodes for the entire methods. Because
+this does not scale to the size of the linked list the memory effieciency is O(1).

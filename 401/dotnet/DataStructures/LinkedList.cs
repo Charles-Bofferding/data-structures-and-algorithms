@@ -66,5 +66,66 @@ namespace DataStructures
             return temp;
         }
 
+        //append
+        public void Append(int value)
+        {
+            Node newNode = new(value);
+            Node target = Head;
+            while (target.Next != null)
+            {
+                target = target.Next;
+            }
+            target.Next = newNode;
+        }
+
+        //insert before
+        public void InsertBefore(int search, int value)
+        { 
+            Node newNode = new(value);
+            Node target = Head;
+            Node previousNode = null;
+            while (target != null)
+            {
+                if (target.Value == search)
+                {
+                    if (previousNode == null)
+                    {
+                        Head = newNode;
+                        newNode.Next = target;
+                        break;
+                    }
+                    else 
+                    {
+                        previousNode.Next = newNode;
+                        newNode.Next = target;
+                        break;
+                    }
+                }
+
+                previousNode = target;
+                target = target.Next;
+            }
+            Console.WriteLine("Insert Before never found a match.");
+        }
+
+
+        //insert after
+        public void InsertAfter(int search, int value) 
+        {
+            Node newNode = new(value);
+            Node target = Head;
+
+            while (target != null)
+            {
+                if (target.Value == search)
+                {
+                    Node temp = target.Next;
+                    target.Next = newNode;
+                    newNode.Next = temp;
+                    break;
+                }
+                target = target.Next;
+            }
+        }
     }
 }
