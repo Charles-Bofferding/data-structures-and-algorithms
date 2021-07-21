@@ -127,5 +127,37 @@ namespace DataStructures
                 target = target.Next;
             }
         }
+
+        public int KthFromEnd(int position) 
+        {
+            //Setup variables
+            Node target = Head;
+            int length = 0;
+
+            //get the length
+            while (target != null)
+            {
+                length++;
+                target = target.Next;
+            }
+
+            //Resseting back at the start
+            target = Head;
+
+            //Check input value
+            if (position > length || position < 0)
+            {
+                throw new ArgumentException("Bad LinkedList Location Selected");
+            }
+
+            //Starts at 1 because we are already in Head
+            for (int i = 1; i < (length - position); i++)
+            {
+                target = target.Next;
+            }
+
+            return target.Value;
+
+        }
     }
 }
