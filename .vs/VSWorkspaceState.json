@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\401"
+    "\\401",
+    "\\401\\dotnet",
+    "\\401\\dotnet\\CodeChallenges",
+    "\\401\\dotnet\\DataStructures"
   ],
-  "SelectedNode": "\\401\\README.md",
+  "SelectedNode": "\\401\\dotnet\\CodeChallenges\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -92,3 +92,19 @@ Time: All of these methods only loop through the linked list once. This means th
 with the size of the linkedlist that runs the method, giving it an efficiency of O(n).
 Memory: All of these methods only create and refference a set number of nodes for the entire methods. Because
 this does not scale to the size of the linked list the memory effieciency is O(1).
+
+
+<!--Code Challenge 07 Linked Lists Insertion From End -->
+
+# Kth From End
+Given a value, go that many nodes in from the tail of the linked list and return the value stored there.
+If the target is larger than the linked list or a negative integer throw an exception
+
+## Whiteboard Process
+![whiteboard7](Code-Challenge-7.png)
+
+## Approach & Efficiency
+Time: This method needs to loop through the linked list twice, once to get the size and again to find the correct location
+This gives it a time efficiency of O(2n) which simplifies to O(n) efficiency.
+Memory: No matter the size of the linked list only a set number of extra variables will be declared.
+This gives it a memory efficiency of O(1).

@@ -222,6 +222,103 @@ namespace DataStructuresTest
 
         }
 
+        /*-----------------Code Challenge 7----------------------*/
+
+        [Fact]
+        //Where k is greater than the length of the linked list
+        public void KthOutOfBoundsLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+
+            //Make sure ArgumentException returned when target location is outside the bounds of the linked list
+            Assert.Throws<ArgumentException>(() => test.KthFromEnd(20));
+
+        }
+
+
+        [Fact]
+        //Where k and the length of the list are the same
+        public void KthExactLengthLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+
+            //K is targeting third node, (but first position is zero)
+            Assert.Equal(40, test.KthFromEnd(2));
+
+        }
+
+        [Fact]
+        //Where k is not a positive integer
+        public void KthBadInputValueLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+
+            //Ensure the specific type of argument exception is returned
+            Assert.Throws<ArgumentException>(() => test.KthFromEnd(-6));
+
+        }
+
+        [Fact]
+        //Where the linked list is of a size 1
+        public void KthSingleLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Single node test linked list
+            test.Insert(5);
+
+            //Get back correct value
+            Assert.Equal(5, test.KthFromEnd(0));
+
+        }
+
+        [Fact]
+        //“Happy Path” where k is not at the end, but somewhere in the middle of the linked list
+        public void KthIdealLinkList()
+        {
+            //create local linked list
+            LinkedList test = new();
+
+            //Multiple node test linked list
+            test.Insert(5);
+            test.Insert(8);
+            test.Insert(40);
+            test.Insert(10);
+            test.Insert(16);
+            test.Insert(80);
+
+            //Check for middle value of 3
+            Assert.Equal(10, test.KthFromEnd(3));
+
+        }
+
+
+
+
+
+
+
+
+
 
     }
 }
