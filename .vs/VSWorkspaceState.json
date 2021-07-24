@@ -4,8 +4,9 @@
     "\\401",
     "\\401\\dotnet",
     "\\401\\dotnet\\CodeChallenges",
+    "\\401\\dotnet\\CodeChallengesTest",
     "\\401\\dotnet\\DataStructures"
   ],
-  "SelectedNode": "\\401\\dotnet\\CodeChallenges\\Program.cs",
+  "SelectedNode": "\\401\\dotnet",
   "PreviewInSolutionExplorer": false
 }
