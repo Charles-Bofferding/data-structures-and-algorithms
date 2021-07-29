@@ -17,3 +17,12 @@ Psuedo Stack Xunit Tests
 - In CodeChallengeTests/Tests11
 README
 - In CodeChallenges/Code-Challenge-11
+
+# Code Challenge 13
+
+README
+- In CodeChallenges/Code-Challenge-13
+Validate Brackets Method Implementation
+- In CodeChallenges/Code-Challenge-13
+Validate Brackets Xunit Tests
+- In CodeChallengeTests/Tests13
