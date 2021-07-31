@@ -36,8 +36,6 @@ namespace CodeChallengesTest
         {
 
             Assert.False(Code_Challenge_13.ValidateBrackets("{"));
-            Assert.False(Code_Challenge_13.ValidateBrackets("}}[[]{"));
-            Assert.False(Code_Challenge_13.ValidateBrackets("{}{}[][]]]]]"));
 
         }
     }

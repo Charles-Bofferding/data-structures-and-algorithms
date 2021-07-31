@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\401",
-    "\\401\\dotnet",
-    "\\401\\dotnet\\CodeChallenges",
-    "\\401\\dotnet\\CodeChallengesTest",
-    "\\401\\dotnet\\DataStructures"
+    "\\dotnet"
   ],
-  "SelectedNode": "\\401\\dotnet",
+  "SelectedNode": "\\dotnet\\README TOC.md",
   "PreviewInSolutionExplorer": false
 }
