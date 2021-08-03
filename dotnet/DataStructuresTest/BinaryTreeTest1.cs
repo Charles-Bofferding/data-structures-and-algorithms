@@ -97,8 +97,39 @@ namespace DataStructuresTest
             Assert.True(true);
         }
 
-        //Can successfully return a collection from an inorder traversal
-        //Can successfully return a collection from a postorder traversal
+        //GetMax tests
+        [Fact]
+        public void GetMaxTreeTestWorking()
+        {
+            //create local Binary Search Tree
+            BinarySearchTree<int> test = new();
+            test.Add(test.Root, 20);
+            test.Add(test.Root, 10);
+            test.Add(test.Root, 30);
+            test.Add(test.Root, 5);
+            test.Add(test.Root, 15);
+            test.Add(test.Root, 25);
+            test.Add(test.Root, 35);
+
+            //    20
+            //    / \
+            //  10   30
+            //  /\   /\
+            // 5 15 25 35
+
+            //CHecked and it output correctly
+            Assert.Equal(35, test.GetMax(test.Root));
+        }
+
+        [Fact]
+        public void GetMaxTreeTestEdge()
+        {
+            //create local Binary Search Tree
+            BinarySearchTree<int> test = new();
+            test.Add(test.Root, 20);
+
+            Assert.Equal(20, test.GetMax(test.Root));
+        }
 
     }
 }

@@ -39,3 +39,12 @@ Binary Search Tree Class
 - In DataStructures/BinaryTrees/BinarySearchTree.cs
 Binary Tree Tests 1
 - In DataStructuresTest.BinaryTreeTest1.cs
+
+# COde Challenge 16
+
+README
+- In DataStructures/BinaryTrees/README16.md
+GetMax method
+- In DataStructures/BinaryTrees/BinaryTree.cs
+Binary Tree GetMaxTests 
+- In DataStructuresTest.BinaryTreeTest1.cs (at the bottom)
