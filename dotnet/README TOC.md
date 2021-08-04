@@ -48,3 +48,14 @@ GetMax method
 - In DataStructures/BinaryTrees/BinaryTree.cs
 Binary Tree GetMaxTests 
 - In DataStructuresTest.BinaryTreeTest1.cs (at the bottom)
+
+# Code Challenge 17
+
+README
+- In CodeChallenges/Code-Chalenge-17
+BreadthFirst method
+- In CodeChallenges/Code-Chalenge-17
+Validate Search Order Xunit Tests
+- In CodeChallengeTests/Tests17
+Queue EnqueueNode and DequeueNode methods added 
+- In DataStructures/Queue.cs

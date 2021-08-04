@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\dotnet"
+    "\\dotnet",
+    "\\dotnet\\DataStructures",
+    "\\dotnet\\DataStructures\\BinaryTrees"
   ],
-  "SelectedNode": "\\dotnet\\README TOC.md",
   "PreviewInSolutionExplorer": false
 }

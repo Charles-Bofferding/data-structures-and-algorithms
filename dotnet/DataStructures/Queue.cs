@@ -49,6 +49,37 @@ namespace DataStructures
             return output;
         }
 
+        public void EnqueueNode(Node<T> input)
+        {
+
+            if (Front == null)
+            {
+                //make this front and back
+                Front = input;
+                Back = input;
+
+            }
+            else
+            {
+                //add this as next of back, then update back
+                Back.Next = input;
+                Back = input;
+            }
+        }
+
+        public Node<T> DequeueNode()
+        {
+            //Throw the exception
+            if (Front == null)
+            {
+                throw new NullReferenceException();
+            }
+
+            Node<T> output = Front;
+            Front = Front.Next;
+            return output;
+        }
+
         //peek returns value of node at the front, exception stuff for empty queue
         public T Peek()
         {
