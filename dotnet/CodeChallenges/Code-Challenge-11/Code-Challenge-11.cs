@@ -9,8 +9,8 @@ namespace CodeChallenges.Code_Challenge_11
     public class PsuedoQueue
     {
         //Make two stacks
-        public Stack<int> Main =  new Stack<int>();
-        public Stack<int> Reversing = new Stack<int>();
+        public Stack<int> Main =  new();
+        public Stack<int> Reversing = new();
 
 
         //enqueue
