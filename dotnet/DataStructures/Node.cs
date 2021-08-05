@@ -18,6 +18,9 @@ namespace DataStructures
 
         public Node<T> Right { get; set; }
 
+        //Added 8/4/2021 to let a binary tree pretend to be a K-ary tree
+        public List<Node<T>> Children { get; set; }
+
         public Node(T value)
         {
             Value = value;
