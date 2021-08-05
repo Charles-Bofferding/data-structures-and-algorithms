@@ -59,3 +59,14 @@ Validate Search Order Xunit Tests
 - In CodeChallengeTests/Tests17
 Queue EnqueueNode and DequeueNode methods added 
 - In DataStructures/Queue.cs
+
+# Code Challenge 18
+
+README
+- In CodeChallenges/Code-Chalenge-18
+FizzBuzz method
+- In CodeChallenges/Code-Chalenge-18
+Xunit Tests
+- In CodeChallengeTests/Tests18
+Node children properrt added 
+- In DataStructures/Node.cs

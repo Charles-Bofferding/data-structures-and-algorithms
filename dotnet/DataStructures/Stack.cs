@@ -20,6 +20,13 @@ namespace DataStructures
             Top = input;
         }
 
+        //push adds a new node with an input value to the top of the stack
+        public void PushNode(Node<T> input)
+        {
+            input.Next = Top;
+            Top = input;
+        }
+
         //pop return the value from the node on top of the stack, removes the node, raise exception when called on empty stack
         public T Pop()
         {
@@ -30,6 +37,19 @@ namespace DataStructures
                 throw new NullReferenceException();
             }
             T output = Top.Value;
+            Top = Top.Next;
+            return output;
+        }
+
+        public Node<T> PopNode()
+        {
+
+            //Throw the exception
+            if (Top == null)
+            {
+                throw new NullReferenceException();
+            }
+            Node<T> output = Top;
             Top = Top.Next;
             return output;
         }
