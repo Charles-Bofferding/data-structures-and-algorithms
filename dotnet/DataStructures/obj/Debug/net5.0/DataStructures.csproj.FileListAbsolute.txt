@@ -21,7 +21,6 @@ C:\Users\noctu\source\repos\Charles-Bofferding\data-structures-and-algorithms\do
 C:\Users\noctu\source\repos\Charles-Bofferding\data-structures-and-algorithms\dotnet\DataStructures\bin\Debug\net5.0\DataStructures.dll
 C:\Users\noctu\source\repos\Charles-Bofferding\data-structures-and-algorithms\dotnet\DataStructures\bin\Debug\net5.0\ref\DataStructures.dll
 C:\Users\noctu\source\repos\Charles-Bofferding\data-structures-and-algorithms\dotnet\DataStructures\bin\Debug\net5.0\DataStructures.pdb
-C:\Users\noctu\source\repos\Charles-Bofferding\data-structures-and-algorithms\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.csproj.AssemblyReference.cache
 C:\Users\noctu\source\repos\Charles-Bofferding\data-structures-and-algorithms\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\noctu\source\repos\Charles-Bofferding\data-structures-and-algorithms\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.AssemblyInfoInputs.cache
 C:\Users\noctu\source\repos\Charles-Bofferding\data-structures-and-algorithms\dotnet\DataStructures\obj\Debug\net5.0\DataStructures.AssemblyInfo.cs

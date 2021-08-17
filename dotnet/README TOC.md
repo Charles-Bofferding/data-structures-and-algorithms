@@ -70,3 +70,14 @@ Xunit Tests
 - In CodeChallengeTests/Tests18
 Node children properrt added 
 - In DataStructures/Node.cs
+
+# Code Challenge 26
+
+README
+- In CodeChallenges/Code-Chalenge-26
+InsertionSort method
+- In CodeChallenges/Code-Chalenge-26
+Xunit Tests
+- In CodeChallengeTests/Tests26.cs
+BLOG.md
+- In CodeChallenges/Code-Chalenge-26
