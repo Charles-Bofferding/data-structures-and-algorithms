@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CodeChallenges.Code_Challenge_18
 {
-    class Code_Challenge_18
+    public class Code_Challenge_18
     {
 
         //added children property to the node class
