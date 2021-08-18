@@ -81,3 +81,14 @@ Xunit Tests
 - In CodeChallengeTests/Tests26.cs
 BLOG.md
 - In CodeChallenges/Code-Chalenge-26
+
+# Code Challenge 27
+
+README
+- In CodeChallenges/Code-Chalenge-27
+MergeSort method
+- In CodeChallenges/Code-Chalenge-27
+Xunit Tests
+- In CodeChallengeTests/Tests27.cs
+BLOG.md
+- In CodeChallenges/Code-Chalenge-27
