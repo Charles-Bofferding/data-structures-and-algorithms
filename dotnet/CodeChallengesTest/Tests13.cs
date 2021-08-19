@@ -8,7 +8,7 @@ using CodeChallenges.Code_Challenge_13;
 
 namespace CodeChallengesTest
 {
-    public class Test13
+    public class Tests13
     {
 
         [Fact]
