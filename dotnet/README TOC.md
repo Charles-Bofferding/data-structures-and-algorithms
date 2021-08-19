@@ -92,3 +92,12 @@ Xunit Tests
 - In CodeChallengeTests/Tests27.cs
 BLOG.md
 - In CodeChallenges/Code-Chalenge-27
+
+# Code Challenge 28
+
+README/BLOOOOOG
+- In CodeChallenges/Code-Chalenge-28
+MergeSort method
+- In CodeChallenges/Code-Chalenge-28
+Xunit Tests
+- In CodeChallengeTests/Tests28.cs
