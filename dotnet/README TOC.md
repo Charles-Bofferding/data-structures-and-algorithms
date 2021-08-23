@@ -110,3 +110,12 @@ HashMap methods
 - In DataStructures/HashMap
 Xunit Tests
 - In CodeChallengeTests/Tests30.cs
+
+# Code Challenge 31
+
+README
+- In CodeChallenges/Code-Chalenge-31
+Methods
+- In CodeChallenges/Code-Chalenge-31
+Xunit Tests
+- In CodeChallengeTests/Tests31.cs
