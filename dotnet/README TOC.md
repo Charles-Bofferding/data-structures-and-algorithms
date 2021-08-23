@@ -101,3 +101,12 @@ MergeSort method
 - In CodeChallenges/Code-Chalenge-28
 Xunit Tests
 - In CodeChallengeTests/Tests28.cs
+
+# Code Challenge 30
+
+README
+- In DataStructures/HashMap
+HashMap methods
+- In DataStructures/HashMap
+Xunit Tests
+- In CodeChallengeTests/Tests30.cs
