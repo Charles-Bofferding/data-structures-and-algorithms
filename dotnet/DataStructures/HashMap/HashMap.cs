@@ -9,7 +9,7 @@ namespace DataStructures.HashMap
     public class HashMap
     {
 
-        private LinkedList<KeyValuePair<string, string>>[] Map { get; set; }
+        public LinkedList<KeyValuePair<string, string>>[] Map { get; set; }
 
         public HashMap (int size)
         {
@@ -79,6 +79,23 @@ namespace DataStructures.HashMap
             }
 
             return null;
+        }
+
+        public List<string> GetEach(string key)
+        {
+            int hashKey = Hash(key);
+            List<string> output = new();
+
+            if (Map[hashKey!] != null)
+            {
+                Node<KeyValuePair<string, string>> current = Map[hashKey].Head;
+                while (current != null)
+                {
+                    if (current.Value.Key == key) { output.Add(current.Value.Value); }
+                    current = current.Next;
+                }
+            }
+            return output;
         }
 
         public void Print()
