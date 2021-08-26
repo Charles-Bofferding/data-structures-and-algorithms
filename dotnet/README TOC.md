@@ -119,3 +119,12 @@ Methods
 - In CodeChallenges/Code-Chalenge-31
 Xunit Tests
 - In CodeChallengeTests/Tests31.cs
+
+# Code Challenge 33
+
+README
+- In CodeChallenges/Code-Chalenge-33
+Methods
+- In CodeChallenges/Code-Chalenge-33
+Xunit Tests
+- In CodeChallengeTests/Tests33.cs
