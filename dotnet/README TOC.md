@@ -128,3 +128,12 @@ Methods
 - In CodeChallenges/Code-Chalenge-33
 Xunit Tests
 - In CodeChallengeTests/Tests33.cs
+
+# Code Challenge 34
+
+README
+- In DataStructures/Graph
+Methods
+- In DataStructures/Graph
+Xunit Tests
+- In CodeChallengeTests/Tests35.cs
